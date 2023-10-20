@@ -18,3 +18,79 @@ Requirements:
 ○Tasks
 
 ●The database system should be able to generate reports on the status of construction projects, the performance of contractors, and the usage of materials.
+
+Entities:
+
+●Tower_Site
+
+●Construction_Project
+
+●Contractor
+
+●Material
+
+●Task
+
+Attributes:
+
+●Tower_Site:
+
+○Tower_Site_ID (primary key)
+
+○Tower_Site_Name
+
+○Tower_Site_Address
+
+○Tower_Site_Type
+
+●Construction_Project:
+
+○Construction_Project_ID (primary key)
+
+○Construction_Project_Name
+
+○Construction_Project_Start_Date
+
+○Construction_Project_End_Date
+
+○Construction_Project_Budget
+
+○Tower_Site_ID (foreign key)
+
+●Contractor:
+
+○Contractor_ID (primary key)
+
+○Contractor_Name
+
+○Contractor_Address
+
+○Contractor_Phone_Number
+
+●Material:
+
+○Material_ID (primary key)
+
+○Material_Name
+
+○Material_Quantity
+
+○Material_Unit_Price
+
+●Task:
+
+○Task_ID (primary key)
+
+○Task_Name
+
+○Task_Start_Date
+
+○Task_End_Date
+
+○Task_Status
+
+○Construction_Project_ID (foreign key)
+
+○Contractor_ID (foreign key)
+
+○Material_ID (foreign key)
