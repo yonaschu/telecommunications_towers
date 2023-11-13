@@ -94,3 +94,21 @@ Attributes:
 ○Contractor_ID (foreign key)
 
 ○Material_ID (foreign key)
+
+Relationships:
+
+●One tower site can have many construction projects.
+●One construction project can have only one tower site.
+●One construction project can have many contractors.
+●One contractor can work on many construction projects.
+●One task can be assigned to only one contractor.
+●One contractor can be assigned to many tasks.
+●One task can use only one material.
+●One material can be used in many tasks.
+
+1. Complete ER Diagram:
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset=" Telecommunication_Status_V4.drawio.png">
+ <source media="(prefers-color-scheme: light)" srcset=" Telecommunication_Status_V4.drawio.png">
+ <img alt="YOUR-ALT-TEXT" src=" Telecommunication_Status_V4.drawio.png">
+</picture>
