@@ -115,7 +115,10 @@ Relationships:
 
 1. Complete ER Diagram:
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset=" Telecommunication_Status_V4.drawio">
- <source media="(prefers-color-scheme: light)" srcset=" Telecommunication_Status_V4.drawio">
- <img alt="YOUR-ALT-TEXT" src=" Telecommunication_Status_V4.drawio">
+ <source media="(prefers-color-scheme: dark)" srcset=" [Telecommunication_Status_V4.drawio](https://github.com/yonaschu/telecommunications_towers/blob/main/Telecommunication_Status_V4.drawio.png)">
+ 
+ <source media="(prefers-color-scheme: light)" srcset=" [Telecommunication_Status_V4.drawio](https://github.com/yonaschu/telecommunications_towers/blob/main/Telecommunication_Status_V4.drawio.png)https://github.com/yonaschu/telecommunications_towers/blob/main/Telecommunication_Status_V4.drawio.png">
+ 
+ <img alt="YOUR-ALT-TEXT" src=" [Telecommunication_Status_V4.drawio](https://github.com/yonaschu/telecommunications_towers/blob/main/Telecommunication_Status_V4.drawio.png)https://github.com/yonaschu/telecommunications_towers/blob/main/Telecommunication_Status_V4.drawio.png">
+ 
 </picture>
